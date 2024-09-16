@@ -32,7 +32,7 @@
         <div class="scenario-choices">Run FusionAuth</div><br/>
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
           <div class="feature col div-choice">
-            <div class="astradb-line1">Web UI for FusionAuth</div>
+            <div class="astradb-line1">Use teh Web UI for FusionAuth</div>
             <br />
             <a href='command:katapod.loadPage?[{"step":"step1-web"}]' class="btn btn-primary">
               Use the web UI
