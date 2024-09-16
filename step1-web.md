@@ -11,7 +11,7 @@
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
  <a href='command:katapod.loadPage?[{"step":"intro"}]' 
-   class="btn btn-dark navigation-top-left">⬅️ Back
+   class="btn btn-dark navigation-top-left">Back
  </a>
 <span class="step-count"> Step 1 of 2</span>
  <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
@@ -60,7 +60,7 @@ Stuff to add here:
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
  <a href='command:katapod.loadPage?[{"step":"intro"}]' 
-   class="btn btn-dark navigation-top-left">⬅️ Back
+   class="btn btn-dark navigation-top-left">Back
  </a>
 <span class="step-count"> Step 1 of 2</span>
  <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 

@@ -11,7 +11,7 @@
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
  <a href='command:katapod.loadPage?[{"step":"intro"}]' 
-   class="btn btn-dark navigation-top-left">⬅️ Back
+   class="btn btn-dark navigation-top-left">Back
  </a>
 <span class="step-count"> Step 1 of 2</span>
  <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
@@ -30,7 +30,7 @@ In this module you will be working with the web UI.
 ## Start the FusionAuth Web UI
 
 You may need to wait a few moments while the server comes up. While you wait, try out the auto-run functionality of this tutorial.  When you see a grey block of
- code with a darker bar to the left of it, click on that grey block to auto-run the command in the terminal to the right.  Try that now.
+ code like this one, click on that grey block to auto-run the command in the terminal to the right.  Try that now.
 
 ```
 echo "This command shows the auto-run functionality of the tutorial."
@@ -66,7 +66,7 @@ This command will return the user object to indicate the command was successful.
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
  <a href='command:katapod.loadPage?[{"step":"intro"}]' 
-   class="btn btn-dark navigation-top-left">⬅️ Back
+   class="btn btn-dark navigation-top-left">Back
  </a>
 <span class="step-count"> Step 1 of 2</span>
  <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
