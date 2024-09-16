@@ -31,7 +31,7 @@ In this module you will be working with the web UI.
 
 ## Start the FusionAuth Web UI
 
-You may need to wait a few moments while the server comes up. While you wait, try out the auto-run functionality of this tutorial.  When you see a block of code with a blue "play" arrow to the left of it, click on that blue arrow to auto-run the command in the terminal to the right.  Try that now.
+You may need to wait a few moments while the server comes up. While you wait, try out the auto-run functionality of this tutorial.  When you see a grey block of code with a darker bar to the left of it, click on that grey block to auto-run the command in the terminal to the right.  Try that now.
 
 ```
 echo "This command shows the auto-run functionality of the tutorial."
