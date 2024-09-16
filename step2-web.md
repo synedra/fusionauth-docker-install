@@ -15,9 +15,9 @@
  <a href='command:katapod.loadPage?[{"step":"step1"}]' 
    class="btn btn-dark navigation-top-left">⬅️ Back
  </a>
-<span class="step-count"> Step 1 of 2</span>
+<span class="step-count"> Step 2 of 2</span>
  <a href='command:katapod.loadPage?[{"step":"thanks-web"}]' 
-    class="btn btn-dark navigation-top-right">Next ➡️ Finishing up
+    class="btn btn-dark navigation-top-right">Next
   </a>
 </div>
 
@@ -46,9 +46,9 @@ Stuff to add
  <a href='command:katapod.loadPage?[{"step":"step1"}]' 
    class="btn btn-dark navigation-top-left">⬅️ Back
  </a>
-<span class="step-count"> Step 1 of 2</span>
+<span class="step-count"> Step 2 of 2</span>
  <a href='command:katapod.loadPage?[{"step":"thanks-web"}]' 
-    class="btn btn-dark navigation-top-right">Next ➡️ Finishing up
+    class="btn btn-dark navigation-top-right">Next
   </a>
 </div>
 

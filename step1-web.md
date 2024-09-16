@@ -15,7 +15,7 @@
  </a>
 <span class="step-count"> Step 1 of 2</span>
  <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
-    class="btn btn-dark navigation-top-right">Next ➡️ Registering the User
+    class="btn btn-dark navigation-top-right">Next
   </a>
 </div>
 
@@ -64,7 +64,7 @@ Stuff to add here:
  </a>
 <span class="step-count"> Step 1 of 2</span>
  <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
-    class="btn btn-dark navigation-top-right">Next ➡️ Registering the User
+    class="btn btn-dark navigation-top-right">Next 
   </a>
 </div>
 

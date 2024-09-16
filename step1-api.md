@@ -15,7 +15,7 @@
  </a>
 <span class="step-count"> Step 1 of 2</span>
  <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
-    class="btn btn-dark navigation-top-right">Next ➡️ Registering the User
+    class="btn btn-dark navigation-top-right">Next
   </a>
 </div>
 
@@ -70,7 +70,7 @@ This command will return the user object to indicate the command was successful.
  </a>
 <span class="step-count"> Step 1 of 2</span>
  <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
-    class="btn btn-dark navigation-top-right">Next ➡️ Registering the User
+    class="btn btn-dark navigation-top-right">Next 
   </a>
 </div>
 
