@@ -31,7 +31,13 @@ In this module you will be working with the web UI.
 
 ## Start the FusionAuth Web UI
 
-You may need to wait a few moments while the server comes up.  This command will return information about your server's keys as soon as the server is ready.
+You may need to wait a few moments while the server comes up. While you wait, try out the auto-run functionality of this tutorial.  When you see a block of code with a blue "play" arrow to the left of it, click on that blue arrow to auto-run the command in the terminal to the right.  Try that now.
+
+```
+echo "This command shows the auto-run functionality of the tutorial."
+```
+
+Now that you've done that, run the following block which will wait until the FusionAuth server has finished starting up and run an API command against the server.
 
 ```
 echo "Waiting for the FusionAuth server to start up"
