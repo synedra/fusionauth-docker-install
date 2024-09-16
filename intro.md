@@ -39,7 +39,7 @@
             </a>
           </div>
           <div class="feature col div-choice">
-            <div class="cassandra-line1">Local deployment of open-source Apache Cassandra</div>
+            <div class="cassandra-line1">Use FusionAuth APIs from the Command Line</div>
             <br/>
             <a href='command:katapod.loadPage?[{"step":"step1-api"}]' class="btn btn-primary">
               Use APIs from the command line
