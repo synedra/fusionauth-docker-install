@@ -47,7 +47,7 @@ Stuff to add
    class="btn btn-dark navigation-top-left">Back
  </a>
 <span class="step-count"> Step 2 of 2</span>
- <a href='command:katapod.loadPage?[{"step":"thanks-web"}]' 
+ <a href='command:katapod.loadPage?[{"step":"finish-web"}]' 
     class="btn btn-dark navigation-top-right">Next
   </a>
 </div>
