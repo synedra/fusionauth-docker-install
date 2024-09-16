@@ -1,5 +1,3 @@
-# Using Fusionauth using the API from the command line
-
 <!-- TOP -->
 <div class="top">
   <img src="https://cdn.prod.website-files.com/617b1b1f42c1da41aeae3413/6573599a9ea8c6ccef655afd_primary-logo.png" width=200/>
@@ -23,7 +21,7 @@
 
 <!-- CONTENT -->
 
-## Jump into FusionAuth - Getting Started
+## Using FusionAuth APIs from the Command Line
 
 This workspace has been jumpstarted with a running fusionauth server and a running application.
 
