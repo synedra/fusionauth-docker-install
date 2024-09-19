@@ -10,11 +10,11 @@
 
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
- <a href='command:katapod.loadPage?[{"step":"intro"}]' 
+ <a href='command:katapod.loadPage?[{"step":"step1-api"}]' 
    class="btn btn-dark navigation-top-left">Back
  </a>
 <span class="step-count"> Step 1 of 2</span>
- <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
+ <a href='command:katapod.loadPage?[{"step":"finish"}]' 
     class="btn btn-dark navigation-top-right">Next
   </a>
 </div>
@@ -36,11 +36,11 @@ http :9011/api/application/search name="Example App" | jq .applications[].id
 
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
- <a href='command:katapod.loadPage?[{"step":"intro"}]' 
+ <a href='command:katapod.loadPage?[{"step":"step1-api"}]' 
    class="btn btn-dark navigation-top-left">Back
  </a>
 <span class="step-count"> Step 1 of 2</span>
- <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
+ <a href='command:katapod.loadPage?[{"step":"finish"}]' 
     class="btn btn-dark navigation-top-right">Next 
   </a>
 </div>

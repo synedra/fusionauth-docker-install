@@ -10,11 +10,11 @@
 
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
- <a href='command:katapod.loadPage?[{"step":"step1-api"}]' 
+ <a href='command:katapod.loadPage?[{"step":"intro"}]' 
    class="btn btn-dark navigation-top-left">Back
  </a>
 <span class="step-count"> Step 1 of 2</span>
- <a href='command:katapod.loadPage?[{"step":"finish-api"}]' 
+ <a href='command:katapod.loadPage?[{"step":"step2-api"}]' 
     class="btn btn-dark navigation-top-right">Next
   </a>
 </div>
@@ -33,7 +33,6 @@ echo "This command shows the auto-run functionality of the tutorial."
 Now that you've done that, run the following block which will wait until the FusionAuth server has finished starting up and run an API command against the server.
 
 ```
-echo "Waiting for the FusionAuth server to start up"
 bash serverup.sh
 http :9011/api/key
 ```
@@ -59,11 +58,11 @@ This command will return the user object to indicate the command was successful.
 
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
- <a href='command:katapod.loadPage?[{"step":"step1-api"}]' 
+ <a href='command:katapod.loadPage?[{"step":"intro"}]' 
    class="btn btn-dark navigation-top-left">Back
  </a>
 <span class="step-count"> Step 1 of 2</span>
- <a href='command:katapod.loadPage?[{"step":"finish-api"}]' 
+ <a href='command:katapod.loadPage?[{"step":"step2-api"}]' 
     class="btn btn-dark navigation-top-right">Next
   </a>
 </div>
