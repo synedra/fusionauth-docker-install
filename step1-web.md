@@ -39,7 +39,6 @@ Now that you've seen how it works, go ahead and run the following command, which
 
 
 ```
-echo "Waiting for the FusionAuth server to start up"
 bash serverup.sh
 gp preview `gp url 9011`/admin
 ```
