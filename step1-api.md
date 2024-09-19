@@ -10,24 +10,28 @@
 
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
- <a href='command:katapod.loadPage?[{"step":"intro"}]' 
+ <a href='command:katapod.loadPage?[{"step":"step1-api"}]' 
    class="btn btn-dark navigation-top-left">Back
  </a>
 <span class="step-count"> Step 1 of 2</span>
- <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
+ <a href='command:katapod.loadPage?[{"step":"finish-api"}]' 
     class="btn btn-dark navigation-top-right">Next
   </a>
 </div>
 
 <!-- CONTENT -->
 
-## Using FusionAuth APIs from the Command Line
+## Registering the User with an Application
 
-This workspace has been jumpstarted with a running fusionauth server and a running application.
+In this step, you will add the user to an application in the system.  You will be using the "Example App" and once the user is added you'll log into the system with that user to see how that works.
 
-In this module you will be working with the web UI.
+### Search for the Application
 
-## Start the FusionAuth Web UI
+First, you need to find information about the application.  To do this, use the following command (again, click in the grey area to run it in the terminal).
+
+```
+http :9011/api/application/search name="Example App" | jq .applications[].id
+```
 
 You may need to wait a few moments while the server comes up. While you wait, try out the auto-run functionality of this tutorial.  When you see a grey block of
  code like this one, click on that grey block to auto-run the command in the terminal to the right.  Try that now.
@@ -65,12 +69,12 @@ This command will return the user object to indicate the command was successful.
 
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
- <a href='command:katapod.loadPage?[{"step":"intro"}]' 
+ <a href='command:katapod.loadPage?[{"step":"step1-api"}]' 
    class="btn btn-dark navigation-top-left">Back
  </a>
 <span class="step-count"> Step 1 of 2</span>
- <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
-    class="btn btn-dark navigation-top-right">Next 
+ <a href='command:katapod.loadPage?[{"step":"finish-api"}]' 
+    class="btn btn-dark navigation-top-right">Next
   </a>
 </div>
 
