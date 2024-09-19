@@ -23,9 +23,14 @@
 
 <!-- CONTENT -->
 # Add the user to the example application
-Stuff to add
-- User registration button
-- Register user flow
+
+On the user screen, click the "Add registration" button at the bottom left.
+
+![User screen](/img/user-screen.png)
+
+Select FusionAuth as the application and click the blue save button at the top of the screen.
+
+![User registration](/img/add-user-registration.png)
 
 # Start up the application
 
@@ -37,9 +42,7 @@ gp preview `gp url 3000`
 
 # Logout from the admin user and login with Fred
 
-Stuff to add
-- Logout screen/button
-- Login screen
+Click 'Login' to log in.  Since you are already logged in as the admin user you will need to 'Logout' and then 'Login' again with fred as the user.
 
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">

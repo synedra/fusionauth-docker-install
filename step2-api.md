@@ -36,11 +36,20 @@ http :9011/api/application/search name=="ChangeBank" | jq .applications[].id
 Now, we'll register the user with that application:
 
 ```
-http POST :9011/api/user/registration 
-    user:='{"email":"fred_example.com","password":"password"}'
-    registration:='{"applicationId":"e9fdb985-9173-4e01-9d73-ac2d60d1dc8e"}'
+http POST :9011/api/user/registration user:='{"email":"fred@example.com","password":"password"}' registration:='{"applicationId":"e9fdb985-9173-4e01-9d73-ac2d60d1dc8e"}' -vvv
 ```
 
+## Login to the Application with the User
+
+Now that you've added the user to the application, you can login to the application with that user.
+
+First, launch a browser pointed to ChangeBank:
+
+```
+gp preview `gp url 3000`
+```
+
+Next, login using fred@example.com with password 'password' to verify that the user was added.
 
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">

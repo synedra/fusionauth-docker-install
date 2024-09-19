@@ -53,9 +53,19 @@ Login to the Fusionauth UI with the following credentials:
 
 In the administration screen, click on the hamburger symbol on the upper left of the screen.  Select "Users"
 
-Stuff to add here:
-* Image for opening Users
-* Image for creating user
+![Dashboard](/img/dashboard-users-selected.png)
+
+Click the green plus sign in the upper right hand corner to add a new user.
+
+Fill in the user with the information from the image:
+- Email: fred@example.com
+- Username: fred
+- De-select the "Send email to set up password" then set the password to 'password'
+
+![Users](/img/add-user.png)
+
+When you have finished, you'll see the user screen.  
+
 
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
