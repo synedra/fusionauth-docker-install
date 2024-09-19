@@ -21,17 +21,7 @@
 
 <!-- CONTENT -->
 
-## Registering the User with an Application
-
-In this step, you will add the user to an application in the system.  You will be using the "Example App" and once the user is added you'll log into the system with that user to see how that works.
-
-### Search for the Application
-
-First, you need to find information about the application.  To do this, use the following command (again, click in the grey area to run it in the terminal).
-
-```
-http :9011/api/application/search name="Example App" | jq .applications[].id
-```
+## Starting up FusionAuth
 
 You may need to wait a few moments while the server comes up. While you wait, try out the auto-run functionality of this tutorial.  When you see a grey block of
  code like this one, click on that grey block to auto-run the command in the terminal to the right.  Try that now.

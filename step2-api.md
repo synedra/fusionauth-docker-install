@@ -21,46 +21,17 @@
 
 <!-- CONTENT -->
 
-## Using FusionAuth APIs from the Command Line
+## Registering the User with an Application
 
-This workspace has been jumpstarted with a running fusionauth server and a running application.
+In this step, you will add the user to an application in the system.  You will be using the "Example App" and once the user is added you'll log into the system with that user to see how that works.
 
-In this module you will be working with the web UI.
+### Search for the Application
 
-## Start the FusionAuth Web UI
-
-You may need to wait a few moments while the server comes up. While you wait, try out the auto-run functionality of this tutorial.  When you see a grey block of
- code like this one, click on that grey block to auto-run the command in the terminal to the right.  Try that now.
+First, you need to find information about the application.  To do this, use the following command (again, click in the grey area to run it in the terminal).
 
 ```
-echo "This command shows the auto-run functionality of the tutorial."
+http :9011/api/application/search name="Example App" | jq .applications[].id
 ```
-
-Now that you've done that, run the following block which will wait until the FusionAuth server has finished starting up and run an API command against the server.
-
-```
-echo "Waiting for the FusionAuth server to start up"
-bash serverup.sh
-http :9011/api/key
-```
-
-For server interaction you will be using httpie with set authentication information.  Because of this you will not need to perform the authentication steps.
-
-If you want to see the whole HTTP transaction you can do so by adding -vvv to the command:
-
-```
-http :9011/api/key -vvv
-```
-
-## Add a New User
-
-The first step is to add a new user.  The user api takes an optional UUID for the user, which we will use here.
-
-```
-http POST :9011/api/user/0279d75d-4a53-4288-9b4f-89662bf6a9cf user:='{"email":"foo@bar.com", "password":"mypassword"}'
-```
-
-This command will return the user object to indicate the command was successful.
 
 
 <!-- NAVIGATION -->
