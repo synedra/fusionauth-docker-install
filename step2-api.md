@@ -27,10 +27,18 @@ In this step, you will add the user to an application in the system.  You will b
 
 ### Search for the Application
 
-First, you need to find information about the application.  To do this, use the following command (again, click in the grey area to run it in the terminal).
+First, you need to find information about the application.  To do this, use the following command (again, click in the grey area to run it in the terminal).  The application created from the kickstart is called "ChangeBank" so the first step is to search for that application here:
 
 ```
-http :9011/api/application/search name="Example App" | jq .applications[].id
+http :9011/api/application/search name="ChangeBank" | jq .applications[].id
+```
+
+Now, we'll register the user with that application:
+
+```
+http POST :9011/user/registration 
+    user:='{"email":"fred_example.com","password":"password"}'
+    registration:='{"applicationId":"e9fdb985-9173-4e01-9d73-ac2d60d1dc8e"}'
 ```
 
 

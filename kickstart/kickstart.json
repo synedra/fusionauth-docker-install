@@ -72,7 +72,7 @@
             "tenantId": "#{defaultTenantId}",
             "body": {
               "application": {
-                "name": "Example app",
+                "name": "ChangeBank",
                 "oauthConfiguration" : {
                     "authorizedRedirectURLs": ["REACT_APP_REDIRECT"],
                     "authorizedOriginURLs": ["REACT_APP_REDIRECT"],
