@@ -1,17 +1,4 @@
-networks:
-  db_net:
-    driver: bridge
-  search_net:
-    driver: bridge
-
-volumes:
-  db_data:
-  fusionauth_config:
-  search_data:
-
 services:
-
-## FUSIONAUTH ####################
   db:
     image: postgres:16.0-bookworm
     environment:
@@ -25,6 +12,7 @@ services:
       retries: 5
     networks:
       - db_net
+    restart: unless-stopped
     volumes:
       - db_data:/var/lib/postgresql/data
 
@@ -41,6 +29,7 @@ services:
       interval: 10s
       retries: 80
       test: curl --write-out 'HTTP %{http_code}' --fail --silent --output /dev/null http://localhost:9200/
+    restart: unless-stopped
     ulimits:
       memlock:
         soft: -1
@@ -78,10 +67,20 @@ services:
     networks:
       - db_net
       - search_net
+    restart: unless-stopped
     ports:
       - 9011:9011
     volumes:
       - fusionauth_config:/usr/local/fusionauth/config
       - ./kickstart:/usr/local/fusionauth/kickstart
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
+
+networks:
+  db_net:
+    driver: bridge
+  search_net:
+    driver: bridge
+
+volumes:
+  db_data:
+  fusionauth_config:
+  search_data:
