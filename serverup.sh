@@ -4,4 +4,4 @@ until curl --output /dev/null --silent --head --fail http://localhost:9011; do
     printf '.'
     sleep 5
 done
-sleep 2
+sleep 5
