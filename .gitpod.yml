@@ -9,8 +9,8 @@ tasks:
   - name: cqlsh
     env: 
       DATABASE_URL: "jdbc:postgresql://localhost:5432/fusionauth"
-      DATABASE_ROOT_USERNAME: "gitpod"
-      DATABASE_ROOT_PASSWORD: "password"
+      DATABASE_ROOT_USERNAME: "fusionauth"
+      DATABASE_ROOT_PASSWORD: "fusionauth"
       FUSIONAUTH_APP_KICKSTART_FILE: "/workspace/fusionauth-first-steps-launch/kickstart/kickstart.json"
       INSTALL_SEARCH: 1
     before: |
