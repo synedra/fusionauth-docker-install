@@ -10,9 +10,9 @@ import {
 
 const config: FusionAuthProviderConfig = {
   clientId: "e9fdb985-9173-4e01-9d73-ac2d60d1dc8e",
-  redirectUri: "REACT_APP_REDIRECT",
-  postLogoutRedirectUri: "REACT_APP_REDIRECT",
-  serverUrl: "REACT_APP_FUSIONAUTH",
+  redirectUri: "http://localhost:3000",
+  postLogoutRedirectUri: "http://localhost:3000",
+  serverUrl: "http://localhost:9011",
   shouldAutoFetchUserInfo: true,
   shouldAutoRefresh: true,
   onRedirect: (state?: string) => {

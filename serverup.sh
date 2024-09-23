@@ -1,6 +1,6 @@
 #!/bin/env
-echo "Waiting for the FusionAuth server to start up on REACT_APP_FUSIONAUTH"
-until curl --output /dev/null --silent --head --fail REACT_APP_FUSIONAUTH; do
+echo "Waiting for the FusionAuth server to start up on http://localhost:9011
+until curl --output /dev/null --silent --head --fail http://localhost:9011; do
     printf '.'
     sleep 5
 done
