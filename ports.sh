@@ -5,5 +5,5 @@ export FUSIONAUTH_URL=`gp url 9011`
 export FUSIONAUTH_9012_URL=`gp url 9012`
 
 perl -pi -e 's#http://localhost:9011#$ENV{FUSIONAUTH_URL}#g' complete-application/src/main.tsx kickstart/kickstart.json serverup.sh
-perl -pi -e 's#http://localhost:9012#$ENV{FUSIONAUTH_9012_URL}/g' complete-application/src/main.tsx kickstart/kickstart.json serverup.sh
-perl -pi -e 's#http://localhost:3000#$ENV{REDIRECT_URL}/g' complete-application/src/main.tsx kickstart/kickstart.json serverup.sh
+perl -pi -e 's#http://localhost:9012#$ENV{FUSIONAUTH_9012_URL}#g' complete-application/src/main.tsx kickstart/kickstart.json serverup.sh
+perl -pi -e 's#http://localhost:3000#$ENV{REDIRECT_URL}#g' complete-application/src/main.tsx kickstart/kickstart.json serverup.sh

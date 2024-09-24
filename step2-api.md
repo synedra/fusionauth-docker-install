@@ -13,7 +13,7 @@
  <a href='command:katapod.loadPage?[{"step":"step1-api"}]' 
    class="btn btn-dark navigation-top-left">Back
  </a>
-<span class="step-count"> Step 1 of 2</span>
+<span class="step-count"> Step 2 of 2</span>
  <a href='command:katapod.loadPage?[{"step":"finish"}]' 
     class="btn btn-dark navigation-top-right">Next
   </a>
@@ -23,7 +23,7 @@
 
 ## Registering the User with an Application
 
-In this step, you will add the user to an application in the system.  You will be using the "Example App" and once the user is added you'll log into the system with that user to see how that works.
+In this step, you will add the user to an application in the system.  You will be using the "ChangeBank" and once the user is added you'll log into the system with that user to see how that works.
 
 ### Search for the Application
 
@@ -56,7 +56,7 @@ Next, login using fred@example.com with password 'password' to verify that the u
  <a href='command:katapod.loadPage?[{"step":"step1-api"}]' 
    class="btn btn-dark navigation-top-left">Back
  </a>
-<span class="step-count"> Step 1 of 2</span>
+<span class="step-count"> Step 2 of 2</span>
  <a href='command:katapod.loadPage?[{"step":"finish"}]' 
     class="btn btn-dark navigation-top-right">Next 
   </a>
