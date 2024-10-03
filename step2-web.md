@@ -30,6 +30,10 @@ Select ChangeBank as the application and click the blue save button at the top o
 
 ![User registration](/img/add-user-registration.png)
 
+# Log out of the admin interface
+
+Click the hamburger menu, then select "Log Out" from the black left navigation bar.
+
 # Start up the application
 
 To start up the application, click here.
@@ -40,7 +44,7 @@ gp preview `gp url 3000`
 
 # Logout from the admin user and login with Fred
 
-Click 'Login' to log in.  Since you are already logged in as the admin user you will need to 'Logout' and then 'Login' again with fred as the user.
+Click 'Login' to log in.  Use 'fred@example.com' and 'password' as the credentials.
 
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
