@@ -42,7 +42,7 @@ To start up the application, click here.
 gp preview `gp url 3000`
 ```
 
-# Logout from the admin user and login with Fred
+# Login with Fred
 
 Click 'Login' to log in.  Use 'fred@example.com' and 'password' as the credentials.
 
