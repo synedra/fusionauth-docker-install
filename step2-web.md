@@ -26,7 +26,7 @@ On the user screen, click the "Add registration" button at the bottom left.
 
 ![User screen](/img/user-screen.png)
 
-Select FusionAuth as the application and click the blue save button at the top of the screen.
+Select ChangeBank as the application and click the blue save button at the top of the screen.
 
 ![User registration](/img/add-user-registration.png)
 
