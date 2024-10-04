@@ -25,7 +25,9 @@ In this tutorial you have worked with the FusionAuth Web API and/or the REST API
 
 From here, you can try a different tutorial or jump in to one of our quickstarts, where you can set up an environment with FusionAuth and your favorite language/framework!
 
-# CTA for email or something here
+# Earn a Free T-shirt!
+
+Fill out the [survey](https://klever.kraftful.com/surveys-public/8a9fcd3ddc) to earn an awesome FusionAuth t-shirt!
 
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
